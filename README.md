@@ -23,3 +23,4 @@ function func1() {
     var x = document.getElementById("test1");
     x.innerHTML = "JavaScriptで変更";
 }
+</script>
