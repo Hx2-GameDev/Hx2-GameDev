@@ -16,11 +16,19 @@ Bat file    |..................................................|  0  %
 VBA         |..................................................|  0  %
 ```
 
-<button type="button" onclick="func1();" style="margin-bottom:16px;">変更</button>
-<span id="test1">テスト</span>
 <script>
-function func1() {
-    var x = document.getElementById("test1");
-    x.innerHTML = "JavaScriptで変更";
+setInterval(func2,10000);
+function func2() {
+    var x = document.getElementById("test2");
+    switch (x.innerHTML) {
+        case "テスト1":
+            x.innerHTML = "テスト2";
+            break;
+        case "テスト2":
+            x.innerHTML = "テスト3";
+            break;
+        case "テスト3":
+            x.innerHTML = "テスト1";
+    }
 }
 </script>
