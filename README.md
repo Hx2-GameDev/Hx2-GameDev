@@ -15,3 +15,12 @@ HLSL        |..................................................|  0  %
 Bat file    |..................................................|  0  %
 VBA         |..................................................|  0  %
 ```
+<span id ="test2">0</span>
+<script>
+            setInterval(func2,10000);
+
+            function func2() {
+                        var x = document.getElementById("test2");
+                        x.innerHTML = "12345789"
+            }
+</script>
