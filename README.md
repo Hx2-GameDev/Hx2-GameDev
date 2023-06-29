@@ -15,22 +15,3 @@ HLSL        |..................................................|  0  %
 Bat file    |..................................................|  0  %
 VBA         |..................................................|  0  %
 ```
-<span id="test2">テスト1</span>
-<script>
-{`
-setInterval(func2,10000);
-function func2() {
-    var x = document.getElementById("test2");
-    switch (x.innerHTML) {
-        case "テスト1":
-            x.innerHTML = "テスト2";
-            break;
-        case "テスト2":
-            x.innerHTML = "テスト3";
-            break;
-        case "テスト3":
-            x.innerHTML = "テスト1";
-    }
-}
-`}
-</script>
