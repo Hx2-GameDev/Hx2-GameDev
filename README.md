@@ -17,6 +17,7 @@ VBA         |..................................................|  0  %
 ```
 <span id="test2">テスト1</span>
 <script>
+{`
 setInterval(func2,10000);
 function func2() {
     var x = document.getElementById("test2");
@@ -31,4 +32,5 @@ function func2() {
             x.innerHTML = "テスト1";
     }
 }
+`}
 </script>
