@@ -15,10 +15,11 @@ HLSL        |..................................................|  0  %
 Bat file    |..................................................|  0  %
 VBA         |..................................................|  0  %
 ```
+
+<button type="button" onclick="func1();" style="margin-bottom:16px;">変更</button>
+<span id="test1">テスト</span>
 <script>
-    document.addEventListener('keydown',
-        event => {
-      let keys = event.key;
-               alert(`${keys}`+'が押されました');
-        });
-</script>
+function func1() {
+    var x = document.getElementById("test1");
+    x.innerHTML = "JavaScriptで変更";
+}
