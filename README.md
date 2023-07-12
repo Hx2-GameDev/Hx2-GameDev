@@ -1,8 +1,5 @@
 ### Hi!   : )
 
-### Introduction
-- 
-
 ### Language
 <!--
 # = 1~2%
