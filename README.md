@@ -29,6 +29,3 @@ Others          |#####.............................................|   766 h  12
 - Visual Studio Code
 - Git
 - PowerShell
-
-### Qualifications
-- 応用情報技術者試験
